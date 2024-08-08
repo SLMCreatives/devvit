@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#Devvit 0.1 | 08 August 2024
+Prototype: https://devvit.vercel.app/
+Docs: https://devvit.vercel.app
 
-## Getting Started
+##Overview
 
-First, run the development server:
+Devvit is a Next.js web application built with Drizzle ORM for database interactions. It aims to create a developer-centric community platform similar to Reddit, offering features like code sharing, project collaboration, technical Q&A, and job postings and workshop events.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+###Project Structure
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- components: Reusable UI components.
+- pages: Next.js pages for different routes.
+- lib: Contains utility functions, API calls, and Drizzle ORM configurations.
+- public: Static assets.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+###Suggested Technology Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Next.js: React framework for building web applications.
+- Drizzle ORM: Type-safe ORM for interacting with databases.
+- Supabase: Database for storing user data, posts, comments, etc.
+- NextAuth.js: For user authentication and authorization (e.g., NextAuth.js).
 
-## Learn More
+###ToDoList:
+[✅] Init Setup
+[ ] Set Up Auth (LogIn/Dashboard)
+[ ] Feed UI
+[ ] Feed Data
+[ ] ...
 
-To learn more about Next.js, take a look at the following resources:
+###Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! Please open an issue or pull request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+###License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License.
