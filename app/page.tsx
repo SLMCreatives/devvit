@@ -11,7 +11,7 @@ export default function Home() {
           height={300}
           className="w-12 object-cover"
         />
-        <h1 className="text-2xl">Devvit 0.1</h1>
+        <h1 className="text-2xl">Devvit [0.1]</h1>
       </div>
       <div className="z-10 w-full font-mono text-sm flex flex-col gap-4">
         <p className="text-xl">Overview</p>
