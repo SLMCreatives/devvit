@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Revvit",
   description: "Reddit for Developers in Malaysia",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
