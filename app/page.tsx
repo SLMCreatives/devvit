@@ -47,14 +47,10 @@ export default function Home() {
       <div className="z-10 w-full font-mono text-sm flex flex-col gap-4">
         <p className="text-xl">Contributors</p>
         <p>Contributions are welcome! Please open an issue or pull request.</p>
-        <Link href="#" type="button">
-          <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-            disabled
-          >
+        <Link href="https://github.com/SLMCreatives/devvit" type="button">
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
             View On Github
-          </button>{" "}
-          <em className="text-xs inline -mt-2 text-red-500 ">Coming Soon!</em>
+          </button>
         </Link>
       </div>
       <div className="z-10 w-full font-mono text-sm flex flex-col gap-4"></div>

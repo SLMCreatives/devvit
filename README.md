@@ -1,7 +1,8 @@
 # Devvit 0.1 | 08 August 2024
 
-Prototype: https://devvit.vercel.app/
-Docs: https://devvit.vercel.app
+MainPage: https://devvit.vercel.app/
+GitHub: https://github.com/SLMCreatives/devvit
+Vercel: https://vercel.com/slmcreatives-projects/devvit
 
 ## Overview
 
@@ -23,11 +24,11 @@ Devvit is a Next.js web application built with Drizzle ORM for database interact
 
 ## ToDoList:
 
-[✅] Init Setup
-[ ] Set Up Auth (LogIn/Dashboard)
-[ ] Feed UI
-[ ] Feed Data
-[ ] ...
+- Init Setup [DONE]
+- Set Up Auth (LogIn/Dashboard)
+- Feed UI
+- Feed Data
+- ...
 
 ## Contributing
 
